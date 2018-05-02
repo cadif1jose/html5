@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html longe ="es">
+<head>
+	<meta charset="utf-8">
+	<title>html5 </title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<header>
+		<figure>
+			<img src="logo/logo.png" alt="desarollo de aplicaciones" width="120" height="120" title="desarrollo paginas web">
+		</figure>
+		<h1>Desarrollo de paginas web</h1>
+		<nav>
+			<a href="file:///C:/Users/administra/Desktop/tarea%20daniel%20cadi/tarea2/index.html#encabezado">desarrollo de aplicaciones</a>
+			<a href="file:///C:/Users/administra/Desktop/tarea%20daniel%20cadi/tarea2/CSS3.html">CSS3</a>
+			<a href="file:///C:/Users/administra/Desktop/tarea%20daniel%20cadi/tarea2/javascript.html">Javascript</a>
+			<a href="file:///C:/Users/administra/Desktop/tarea%20daniel%20cadi/tarea2/jquery.html">JQUERY</a>
+		</nav>
+	</header>
+
+	<section>
+		<article class="articulo">
+		<p>Indice</p>
+		<ol>
+			<li><a href="#contenido">html5</a></li>
+			<li><a href="#ancla"> codigos basicos</a></li>
+			<li><a href="#elementos"> nuevo elementos</a></li>
+			<li><a href="#atributos"> atributos</a></li>
+		</ol>
+
+        </article>
+	</section>
+	<section id="contenido">
+		<article class="articulo">
+
+			<h2>HTML5</h2>
+
+			<p><strong>HTML5</strong> (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida como <strong>HTML5</strong>, y una variante XHTML conocida como sintaxis XHTML5 que deberá servirse con sintaxis XML (application/xhtml+xml).1 2 Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo. La versión definitiva de la quinta revisión del estándar se publicó en octubre de 2014.3</p>
+
+			<p>Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se recomienda al usuario común actualizar su navegador a la versión más nueva, para poder disfrutar de todo el potencial que provee HTML5.</p>
+
+			<p>El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.</p>
+		</article>
+		<article class="articulo">
+			<h2 id="elementos">Nuevos Elementos</h2>
+
+			<p>HTML5 establece una serie de nuevos elementos y atributos que reflejan el uso típico de los sitios web modernos. Algunos de ellos son técnicamente similares a las etiquetas div y span, pero tienen un significado semántico, como por ejemplo nav (bloque de navegación del sitio web) y footer. Otros elementos proporcionan nuevas funcionalidades a través de una interfaz estandarizada, como los elementos audio y video.</p>
+
+
+		<blockquote><p>"Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se le recomienda al usuario común actualizar a la versión más nuva, para poder disfrutar de todo el potencial que provee HTML5."</p></blockquote>
+		</article>
+		
+		<article class="articulo">
+			<h2 id="atributos">Atributos</h2>
+			<p>En su mayoría de los atributos de un elemento son pares nombre-valor, separados por un signo de igual «=» y escritos en la etiqueta de comienzo de un elemento, después del nombre del elemento. El valor puede estar rodeado por comillas dobles o simples, aunque ciertos tipos de valores pueden estar sin comillas en HTML (pero no en XHTML).9​10​ De todas maneras, dejar los valores sin comillas es considerado poco seguro.11​ En contraste con los pares nombre-elemento, hay algunos atributos que afectan al elemento simplemente por su presencia12​ (tal como el atributo ismap para el elemento img).</p>
+		</article>
+		<article class="articulo">
+			<h2 id=ancla>Códigos HTML básicos</h2>
+
+<p><strom>Un ejemplo de código HTML con coloreado de sintaxis.</strom></p>
+
+<p>html: define el inicio del documento HTML, le indica al navegador que lo que viene a continuación debe ser interpretado como código HTML. Esto es así de facto, ya que en teoría lo que define el tipo de documento es el DOCTYPE, que significa la palabra justo tras DOCTYPE el tag de raíz.</p>
+<p>script: incrusta un script en una web, o llama a uno mediante src="url del script". Se recomienda incluir el tipo MIME en el atributo type, en el caso de JavaScript text/javascript.</p>
+<p>head: define la cabecera del documento HTML; esta cabecera suele contener información sobre el documento que no se muestra directamente al usuario como, por ejemplo, el título de la ventana del navegador. </p>
+<p>title: define el título de la página. Por lo general, el título aparece en la barra de título encima de la ventana.</p>
+<p>link: para vincular el sitio a hojas de estilo o iconos. Por ejemplo:link rel="stylesheet" href="/style.css" type="text/css">.</p>
+<p>style: para colocar el estilo interno de la página; ya sea usando CSS u otros lenguajes similares. No es necesario colocarlo si se va a vincular a un archivo externo usando la etiqueta link.</p>
+<p>meta: para metadatos como la autoría o la licencia, incluso para indicar parámetros http (mediante http-equiv="") cuando no se pueden modificar por no estar disponible la configuración o por dificultades con server-side scripting.</p>
+<p>body: define el contenido principal o cuerpo del documento. Esta es la parte del documento html que se muestra en el navegador; dentro de esta etiqueta pueden definirse propiedades comunes a toda la página, como color de fondo y márgenes. Dentro del cuerpo body es posible encontrar numerosas etiquetas.
+<p>article: Representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o re-utilizable.</p>
+<p>h1 a h6: encabezados o títulos del documento con diferente relevancia.</p>
+<p>table: define una tabla.</p>
+<p>tr: fila de una tabla.</p>
+<p>td: celda de una tabla (debe estar dentro de una fila).</p>
+<p>footer : representa el pie de un documento o sección. La información que se suele añadir en este bloque es el autor del documento, enlaces a contenido relacionado, información de copyright, avisos legales, etc.</p>
+<p>a: hipervínculo o enlace, dentro o fuera del sitio web. Debe definirse el parámetro de pasada por medio del atributo href. Por ejemplo: a href="http://www.example.com" title="Ejemplo" target="_blank" tabindex="1"></p>
+<p>img: imagen. Requiere del atributo src, que indica la ruta en la que se encuentra la imagen. Por ejemplo: img src="./imágenes/mifoto.jpg" />. Es conveniente, por accesibilidad, poner un atributo alt="texto alternativo".</p>
+<p>li,ol,ul: etiquetas para listas.</p>
+<p>b: texto en negrita (etiqueta desaprobada. Se recomienda usar la etiqueta strong).</p>
+<p>i: texto en cursiva (etiqueta desaprobada. Se recomienda usar la etiqueta em).</p>
+<p>s: texto tachado (etiqueta desaprobada. Se recomienda usar la etiqueta del).</p>
+<p>u: Antes texto subrayado. A partir de HTML 5 define porciones de texto diferenciadas o destacadas del resto, para indicar correcciones por ejemplo (etiqueta desaprobada en HTML 4.01 y redefinida en HTML 5).15​16​</p>
+<p>main: división estructural de la página que engloba el contenido principal de la misma. Dentro de esta etiqueta, por ejemplo, encontramos los article.</p>
+<p>span : Sirve para diferenciar un texto de otro.
+La mayoría de etiquetas deben cerrarse como se abren, pero con una barra («/») tal como se muestra en los siguientes ejemplos:</p>
+
+<p>table,tr,td:Contenido de una celda.</p>
+<p>script:Código de un script integrado en la página.</p>
+<p>header: División estructural en la parte del contenido.</p>
+		</article>
+	</section>
+	<footer id="pie-pagina">
+		<span>Todos los derechos reservados. CADIF1</span>
+		<aside id="redes-sociales">
+			<a href="https://www.facebook.com/josedaniel.monterocolina" target="_blank"><img src="logo/facebook.ico" height="20" width="20"  alt="facebook" title="facebook"></a>
+			<a href="https://www.instagram.com/jdaniel.montero/?hl=es-la" target="_blank"><img src="logo/instagram.png" alt="instagram" height="20px" width="20px" title="facebook"> </a>
+		</aside>
+		<p><a href="#contenido"> Volver al inicio</a></p>
+	</footer>
+
+</body>
+</html>

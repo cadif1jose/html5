@@ -1,0 +1,56 @@
+body {
+	background: black;
+	color: white;
+
+}
+h1 {color: orange;
+text-align: center;
+}
+header {
+	height: 250px;
+	background: #F2F2F2;
+}
+
+nav a{
+background: orange;
+padding: 6px;
+color: white;
+text-decoration: none;
+margin: 6px;
+border: black double;
+}
+nav{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+}
+
+.articulo{
+padding: double;
+
+width :46.5%;	
+margin:1%;
+border: 1px solid white;
+padding: 5px;
+background: #F39C12;
+}
+nav a:hover{
+	background: gray;
+}
+section p a:visited{
+	color: blue;
+}
+a{
+	text-decoration: none;
+}
+footer p a:visited{
+color:blue;
+}
+article h1,h2{
+	color: white;
+}
+
+
